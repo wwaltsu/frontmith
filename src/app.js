@@ -1,2 +1,5 @@
-import m from "mithril";
-m.render(document.body, "hello world");
+var m = require("mithril")
+
+var TodoList = require("./components/TodoList")
+
+m.mount(document.body, TodoList)
