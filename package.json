@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "webpack ./src/app.js --output-path ./bin --watch"
+    "start": "webpack ./src/index.js --output-path ./bin --watch"
   },
   "keywords": [],
   "author": "",
